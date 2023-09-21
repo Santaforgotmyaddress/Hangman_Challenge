@@ -33,7 +33,7 @@ while not game_over:
        if num == 4:
           hint_input = input("If you want a hint type yes: \n").lower()
           if hint_input == "yes":
-             print(f"The Hint is {Hint}")
+             print(f"Hint: {Hint}")
              print("This is your last guess be cautious! ")
           elif hint_input == "no":
                 print("Good luck this is your last guess")
